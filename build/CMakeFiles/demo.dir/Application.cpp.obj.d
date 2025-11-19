@@ -255,4 +255,5 @@ CMakeFiles/demo.dir/Application.cpp.obj: \
  C:\Users\manvi\CMPM\ 123\chess-base\classes/Checkers.h \
  C:\Users\manvi\CMPM\ 123\chess-base\classes/Othello.h \
  C:\Users\manvi\CMPM\ 123\chess-base\classes/Connect4.h \
- C:\Users\manvi\CMPM\ 123\chess-base\classes/Chess.h
+ C:\Users\manvi\CMPM\ 123\chess-base\classes/Chess.h \
+ C:\Users\manvi\CMPM\ 123\chess-base\classes/Bitboard.h

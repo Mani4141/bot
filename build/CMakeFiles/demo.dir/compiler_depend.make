@@ -250,6 +250,7 @@ CMakeFiles/demo.dir/Application.cpp.obj: C:/Users/manvi/CMPM\ 123/chess-base/App
   C:/Users/manvi/CMPM\ 123/chess-base/Application.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/Bit.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/BitHolder.h \
+  C:/Users/manvi/CMPM\ 123/chess-base/classes/Bitboard.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/Checkers.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/Chess.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/ChessSquare.h \
@@ -915,6 +916,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.obj: C:/Users/manvi/CMPM\ 123/chess-base/c
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/Bit.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/BitHolder.h \
+  C:/Users/manvi/CMPM\ 123/chess-base/classes/Bitboard.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/Chess.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/ChessSquare.h \
   C:/Users/manvi/CMPM\ 123/chess-base/classes/Entity.h \
@@ -5352,6 +5354,10 @@ C:/msys64/ucrt64/include/unknwn.h:
 
 C:/Users/manvi/CMPM\ 123/chess-base/classes/BitHolder.h:
 
+C:/Users/manvi/CMPM\ 123/chess-base/classes/Bitboard.h:
+
+C:/Users/manvi/CMPM\ 123/chess-base/classes/Sprite.h:
+
 C:/Users/manvi/CMPM\ 123/chess-base/classes/Chess.h:
 
 C:/Users/manvi/CMPM\ 123/chess-base/classes/ChessSquare.h:
@@ -5369,8 +5375,6 @@ C:/Users/manvi/CMPM\ 123/chess-base/classes/Grid.h:
 C:/msys64/ucrt64/include/synchapi.h:
 
 C:/Users/manvi/CMPM\ 123/chess-base/classes/Othello.h:
-
-C:/Users/manvi/CMPM\ 123/chess-base/classes/Sprite.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h:
 

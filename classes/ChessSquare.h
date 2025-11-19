@@ -11,6 +11,8 @@ public:
         _column = 0;
         _row = 0;
     }
+    // Bring parent class method into scope
+    using BitHolder::initHolder;
     // initialize the holder with a position, color, and a sprite
     void initHolder(const ImVec2 &position, const char *spriteName, const int column, const int row);
     bool canDropBitAtPoint(Bit *bit, const ImVec2 &point) override;

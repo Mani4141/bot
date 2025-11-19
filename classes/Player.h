@@ -7,7 +7,7 @@ class Game;
 class Player
 {
 public:
-	Player() : _game(nullptr), _name(""), _extraValues(), _aiPlayer(false) {};
+	Player() : _game(nullptr), _name(""), _playerNumber(0), _aiPlayer(false), _extraValues() {};
 	~Player() {};
 
 	static Player *initWithGame(Game *game) { Player *player = new Player(); player->_game = game; return player;}

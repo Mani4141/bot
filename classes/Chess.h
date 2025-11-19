@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Bitboard.h"
 #include "Game.h"
 #include "Grid.h"
 
@@ -33,6 +33,8 @@ public:
     Player *checkForWinner() override;
     bool checkForDraw() override;
 
+    void generateMovesForCurrentPlayer(BitMove* moves, int& count);
+
     std::string initialStateString() override;
     std::string stateString() override;
     void setStateString(const std::string &s) override;
@@ -40,10 +42,32 @@ public:
     Grid* getGrid() override { return _grid; }
 
 private:
+    // Internal piece-type enum just for movement logic
+    enum PieceType {
+        PT_None,
+        PT_Pawn,
+        PT_Knight,
+        PT_Bishop,
+        PT_Rook,
+        PT_Queen,
+        PT_King
+    };
+
+    struct PieceInfo {
+        bool isWhite;
+        PieceType type;
+    };
+    uint64_t getOccupancy() const;
+    uint64_t getColorOccupancy(int player) const;
     Bit* PieceForPlayer(const int playerNumber, ChessPiece piece);
     Player* ownerAt(int x, int y) const;
     void FENtoBoard(const std::string& fen);
     char pieceNotation(int x, int y) const;
+
+    // Helpers for movement logic
+    PieceInfo getPieceInfo(const Bit& bit) const;
+    bool getCoordsForHolder(BitHolder& holder, int& x, int& y);
+    int boardIndex(int x, int y) const;
 
     Grid* _grid;
 };

@@ -1,13 +1,23 @@
 CMakeFiles/demo.dir/classes/Chess.cpp.obj: \
  C:\Users\manvi\CMPM\ 123\chess-base\classes\Chess.cpp \
  C:\Users\manvi\CMPM\ 123\chess-base\classes\Chess.h \
- C:\Users\manvi\CMPM\ 123\chess-base\classes\Game.h \
- C:/msys64/ucrt64/include/c++/14.2.0/iostream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
+ C:\Users\manvi\CMPM\ 123\chess-base\classes\Bitboard.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.2.0/ostream \
  C:/msys64/ucrt64/include/c++/14.2.0/ios \
  C:/msys64/ucrt64/include/c++/14.2.0/iosfwd \
@@ -15,11 +25,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h \
  C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
- C:/msys64/ucrt64/include/wchar.h C:/msys64/ucrt64/include/corecrt.h \
- C:/msys64/ucrt64/include/_mingw.h C:/msys64/ucrt64/include/_mingw_mac.h \
- C:/msys64/ucrt64/include/_mingw_secapi.h \
- C:/msys64/ucrt64/include/vadefs.h \
- C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/wchar.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -32,8 +38,6 @@ CMakeFiles/demo.dir/classes/Chess.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h \
  C:/msys64/ucrt64/include/c++/14.2.0/new \
@@ -145,6 +149,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
+ C:\Users\manvi\CMPM\ 123\chess-base\classes\Game.h \
  C:/msys64/ucrt64/include/c++/14.2.0/vector \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h \
@@ -164,11 +169,8 @@ CMakeFiles/demo.dir/classes/Chess.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/stop_token \
  C:/msys64/ucrt64/include/c++/14.2.0/atomic \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_wait.h \
- C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_mutex.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_thread.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \

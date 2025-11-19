@@ -1,13 +1,33 @@
-Fork or clone your this chess project into a new GitHub repository.
+Chess Movement Assignment – CMPM 123
 
-Add support for FEN stringsLinks to an external site. to your game setup so that instead of the current way you are setting up your game board you are setting it up with a call similar to the following call.
+This project implements legal movement for pawns, knights, and the king using:
 
-FENtoBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR");
+FEN board setup
 
-Your routine should be able to take just the board position portion of a FEN string, or the entire FEN string like so:
+BitboardElement and BitMove for knights and king
 
-FENtoBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+Manual rule logic for pawn forward movement + diagonal captures
 
-(you can ignore the end for now)
+Turn-based movement (white then black)
 
-This will allow you to quickly check that your castling, promotion and en passant code is working.
+Capture logic (removes taken piece from board)
+
+Implemented Pieces
+
+Pawn:
+
+Forward 1
+
+Forward 2 from starting rank
+
+Diagonal capture
+
+Knight:
+
+Full L-shape movement using precomputed bitboard table
+
+Can jump over pieces
+
+King:
+
+One square in any direction
